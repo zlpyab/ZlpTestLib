@@ -9,7 +9,7 @@ import android.content.Intent;
 public class ZlpUtils {
 
     public static void toSubActivity(Activity activity){
-        Intent intent = new Intent();
+        Intent intent = new Intent(activity,SubActivity.class);
         activity.startActivity(intent);
     }
 }
