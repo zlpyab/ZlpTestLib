@@ -1,0 +1,1 @@
+include ':app', ':zlpLibrary', ':zlp_mvvm', ':tbsdemo', ':testzlplib'
